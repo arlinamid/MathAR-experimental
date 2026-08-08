@@ -2,6 +2,8 @@
 
 Magyar nyelvű, böngészőben futó AR matematika-játék 1–2. osztályos gyerekeknek.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/arlinamid/MathAR-experimental)
+
 ## Funkciók
 
 - MediaPipe kézkövetés
@@ -14,6 +16,6 @@ Magyar nyelvű, böngészőben futó AR matematika-játék 1–2. osztályos gye
 
 ## Render
 
-A repository tartalmaz `render.yaml` Blueprint konfigurációt. Renderen válaszd a **New → Blueprint** lehetőséget, csatlakoztasd ezt a repót, majd alkalmazd a Blueprintet. A statikus oldal HTTPS-en fog futni, ezért a kameraengedély működik támogatott böngészőkben.
+A repository tartalmaz `render.yaml` Blueprint konfigurációt. A fenti **Deploy to Render** gombbal egy kattintással elindítható a telepítés. Alternatív megoldásként Renderen válaszd a **New → Blueprint** lehetőséget, csatlakoztasd ezt a repót, majd alkalmazd a Blueprintet.
 
-A MediaPipe könyvtár és a Hand Landmarker modell CDN-ről töltődik be.
+A statikus oldal HTTPS-en fut, így a kameraengedély működik támogatott böngészőkben. A MediaPipe könyvtár és a Hand Landmarker modell CDN-ről töltődik be.
