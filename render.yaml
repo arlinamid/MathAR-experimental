@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: mathar-experimental
+    runtime: static
+    staticPublishPath: .
